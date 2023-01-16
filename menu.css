@@ -19,12 +19,7 @@ section h3 {
     margin-top: 100px;
     
 }
-main{
-    /* display: flex;
-    flex-flow: row;
-    justify-content: flex-start;
-    margin: 50px 0; */
-}
+
 
 .menu-container{
     width: 100%;
@@ -64,4 +59,39 @@ img{
 
 .desc{
     line-height: 25px;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(2, 4, 161);
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: blue;
+    font-size: 1rem;
+
+}
+
+button:hover{
+    background: blue;
+    transition: 1s;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+    body{
+        padding: 0 20px;
+    }
+    .menu-container .box{
+        flex-flow: wrap;
+    }
 }
