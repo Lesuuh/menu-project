@@ -1,0 +1,2 @@
+# menu-project
+This project is a JavaScript menu filtering system. It allows users to filter a list of menu items by category by clicking on corresponding buttons. The menu items are stored in an array and displayed on the page using JavaScript. When a button is clicked, the event listener function filters the menu items based on the button's category and updates the display on the page. The display of the menu items is done by creating a template literals and then joining all the items into a single string and then displaying it on the page using innerHTML.
